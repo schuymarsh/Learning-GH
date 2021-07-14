@@ -13,6 +13,7 @@
 		F142702E269F68EB00C0316E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F142702D269F68EB00C0316E /* Preview Assets.xcassets */; };
 		F1427039269F68EB00C0316E /* LearningGHTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1427038269F68EB00C0316E /* LearningGHTests.swift */; };
 		F1427044269F68EB00C0316E /* LearningGHUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1427043269F68EB00C0316E /* LearningGHUITests.swift */; };
+		F1427052269F6AF800C0316E /* MyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1427051269F6AF800C0316E /* MyModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F142703F269F68EB00C0316E /* LearningGHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearningGHUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1427043269F68EB00C0316E /* LearningGHUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearningGHUITests.swift; sourceTree = "<group>"; };
 		F1427045269F68EB00C0316E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1427051269F6AF800C0316E /* MyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				F142702A269F68EB00C0316E /* Assets.xcassets */,
 				F142702F269F68EB00C0316E /* Info.plist */,
 				F142702C269F68EB00C0316E /* Preview Content */,
+				F1427051269F6AF800C0316E /* MyModel.swift */,
 			);
 			path = LearningGH;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1427029269F68EA00C0316E /* ContentView.swift in Sources */,
+				F1427052269F6AF800C0316E /* MyModel.swift in Sources */,
 				F1427027269F68EA00C0316E /* LearningGHApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
